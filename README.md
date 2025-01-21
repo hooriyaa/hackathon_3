@@ -80,32 +80,38 @@ Below is a detailed breakdown of the project features, architecture, and workflo
 ✨## Application Workflow:
 ## Home Page:
 •Displays a responsive product listing with advanced category filters.
+
 •Users can browse sofas, chairs, and stools.
 
 ## Product Detail Page:
 
 •Shows detailed product information, including reviews and ratings.
+
 •Users can add products to the cart or wishlist.
 
 ## Cart:
 
 •Displays selected products with their quantities and total price.
+
 •Users must be signed in to proceed to payment.
 
 ## Checkout:
 
 •Collects shipping details and calculates shipping rates using ShipEngine.
+
 •Users must be signed in to proceed to payment.
 
 ## Payment:
 
 •Processes payments securely using Stripe.
+
 •Users must be signed in to complete the payment.
 
 
 ## Shipment Page:
 
 •Displays shipping details and allows users to confirm their shipment information.
+
 •Provides an option to track the order using ShipEngine.
 
 ## Order Confirmation:
