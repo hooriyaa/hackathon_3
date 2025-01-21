@@ -14,66 +14,68 @@ Below is a detailed breakdown of the project features, architecture, and workflo
 
 • Order Records: Tracks user orders and purchase history.
 
-## Responsive Design
+## Responsive Design:
 -Fully responsive user interface for all pages, ensuring a seamless experience across various devices and screen sizes.
 
-## Third-Party API Integration
+## Third-Party API Integration:
 •ShipEngine: Used for calculating shipping rates and tracking orders.
 
-Stripe: Used for secure payment processing.
+•Stripe: Used for secure payment processing.
 
-Clerk: Used for user authentication and profile management.
+•Clerk: Used for user authentication and profile management.
 
-User Interface Workflow
-Home Page (localhost:3000/)
+## User Interface Workflow:
 
-Displays a list of products fetched from Sanity CMS.
+## Home Page (localhost:3000/)
+•Displays a list of products fetched from Sanity CMS.
 
-Each product includes a name, image, price, and rating.
+•Each product includes a name, image, price, and rating.
 
-Users can click on a product to navigate to its detail page.
+•Users can click on a product to navigate to its detail page.
 
-Product Detail Page (localhost:3000/product/:id)
+## Product Detail Page (localhost:3000/product/:id)
 
-Displays detailed information about a specific product, including:
+•Displays detailed information about a specific product, including:
 
-Name, Image, Old Price, New Price, Description, Stock, and Rating.
+•Name, Image, Old Price, New Price, Description, Stock, and Rating.
 
-Allows users to add the product to the cart or wishlist.
+•Allows users to add the product to the cart or wishlist.
 
-Cart (localhost:3000/cart)
+## Cart (localhost:3000/cart)
 
-Lists all added products with their quantity and total price.
+•Lists all added products with their quantity and total price.
 
-Users can modify quantities or remove products from the cart.
+•Users can modify quantities or remove products from the cart.
 
-Checkout Page (localhost:3000/cart/checkout)
+•Users must be signed in to proceed to payment.
 
-Collects shipping information and integrates ShipEngine to calculate shipping rates.
+•Collects shipping information and integrates ShipEngine to calculate shipping rates.
 
-Processes payments securely using Stripe.
+•Users must be signed in to proceed to payment.
 
-Payment Confirmation (localhost:3000/cart/checkout/payment)
+## Payment Page (localhost:3000/cart/payment)
 
-Confirms the payment and redirects users to the order confirmation page.
+•Processes payments securely using Stripe.
 
-Order Confirmation (localhost:3000/confirmation)
+•Users must be signed in to complete the payment.
 
-Displays a success message with order details.
+## Shipment Page (localhost:3000/shipment)
 
-Thanks the user and provides an option to continue shopping.
+•Displays shipping details and allows users to confirm their shipment information.
 
-Wishlist (localhost:3000/wishlist)
+•Provides an option to track the order using ShipEngine.
 
-Displays products saved by the user for future reference.
+## Wishlist (localhost:3000/wishlist)
 
-Users can move items from the wishlist to the cart.
+•Displays products saved by the user for future reference.
 
-User Authentication (localhost:3000/login)
+•Users can move items from the wishlist to the cart.
 
-Provides secure user authentication using Clerk.
+## User Authentication (localhost:3000/login)
 
-Users can sign up, log in, and manage their profiles.
+•Provides secure user authentication using Clerk.
+
+•Users can sign up, log in, and manage their profiles.
 
 Application Workflow
 Home Page:
