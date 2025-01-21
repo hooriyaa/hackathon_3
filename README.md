@@ -11,13 +11,14 @@ Below is a detailed breakdown of the project features, architecture, and workflo
 • Product Data: ID, Name, Old Price, New Price, Stock, Category, Description, Image, Rating.
 
 • Categories: Sofas, Chairs, Stools.
+
 • Order Records: Tracks user orders and purchase history.
 
 ## Responsive Design
-Fully responsive user interface for all pages, ensuring a seamless experience across various devices and screen sizes.
+-Fully responsive user interface for all pages, ensuring a seamless experience across various devices and screen sizes.
 
-Third-Party API Integration
-ShipEngine: Used for calculating shipping rates and tracking orders.
+## Third-Party API Integration
+•ShipEngine: Used for calculating shipping rates and tracking orders.
 
 Stripe: Used for secure payment processing.
 
