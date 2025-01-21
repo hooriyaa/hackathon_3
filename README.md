@@ -7,9 +7,11 @@ Below is a detailed breakdown of the project features, architecture, and workflo
 ## Features:
 ## Sanity CMS Integration:
 -Acts as the backend to store and manage:
-© Product Data: ID, Name, Old Price, New Price, Stock, Category, Description, Image, Rating.
-© Categories: Sofas, Chairs, Stools.
-© Order Records: Tracks user orders and purchase history.
+
+• Product Data: ID, Name, Old Price, New Price, Stock, Category, Description, Image, Rating.
+
+• Categories: Sofas, Chairs, Stools.
+• Order Records: Tracks user orders and purchase history.
 
 ## Responsive Design
 Fully responsive user interface for all pages, ensuring a seamless experience across various devices and screen sizes.
