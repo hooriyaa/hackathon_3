@@ -77,37 +77,51 @@ Below is a detailed breakdown of the project features, architecture, and workflo
 
 •Users can sign up, log in, and manage their profiles.
 
-Application Workflow
-Home Page:
+✨## Application Workflow:
+## Home Page:
+•Displays a responsive product listing with advanced category filters.
+•Users can browse sofas, chairs, and stools.
 
-Displays a responsive product listing with advanced category filters.
-
-Users can browse sofas, chairs, and stools.
-
-Product Detail Page:
+##Product Detail Page:
 
 Shows detailed product information, including reviews and ratings.
 
 Users can add products to the cart or wishlist.
 
-Cart:
+## Cart:
 
 Displays selected products with their quantities and total price.
 
-Users can proceed to checkout or continue shopping.
+Users must be signed in to proceed to payment.
 
-Checkout:
+## Checkout:
 
 Collects shipping details and calculates shipping rates using ShipEngine.
 
+Users must be signed in to proceed to payment.
+
+## Payment:
+
 Processes payments securely using Stripe.
 
-Order Confirmation:
+Users must be signed in to complete the payment.
+
+## Shipment Page:
+
+Displays shipping details and allows users to confirm their shipment information.
+
+Provides an option to track the order using ShipEngine.
+
+## Order Confirmation:
 
 Displays a success message with order details and shipping information.
 
+
 Product Data Structure
 Managed via Sanity CMS:
+
+json
+Copy
 {
   "ID": "string",
   "Name": "string",
@@ -132,7 +146,14 @@ Payments: Stripe
 
 Performance Testing: Lighthouse
 
+How to Run the Project
+Clone the repository.
+
+Install dependencies using npm install or yarn install.
+
+Start the development server using npm start or yarn start.
+
+Access the application at localhost:3000.
 
 Conclusion
-Comforty is a fully functional e-commerce platform designed to provide a seamless shopping experience for users looking to purchase high-quality sofas and chairs. With robust backend integration, responsive design, and secure payment processing, Comforty is ready for real-world deployment.
-
+Comforty is a fully functional e-commerce platform designed to provide a seamless shopping experience for users looking to purchase high-quality sofas and chairs. With robust backend integration, responsive design, and secure payment processing, Comforty is ready for real-world deployment. Users must be signed in to proceed to payment, ensuring a secure and personalized shopping experience.
