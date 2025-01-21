@@ -1,0 +1,17 @@
+Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Remarks
+TC001,Validate Home Page Load,Open the home page after deployment > Verify it loads correctly,Home page should load without errors,Home page loaded correctly,Pass,No issues found
+TC002,Validate All Routes of Website,Open all routes step by step > Verify pages display correctly,All pages should display data correctly,All pages displayed data correctly,Pass,No issues found
+TC003,Validate API Integration,Send data from frontend > Check API response (e.g Stripe),API should return correct responses,API returned correct responses,Pass,No issues found
+TC004,Validate Page Load Speed,Open the home page > Verify page load speed,Page should load quickly,Page loaded quickly,Pass,No issues found
+TC005,Validate Environment Variables,Check if environment variables are secure and accessible,Environment variables should be secure,Environment variables secure and accessible,Pass,No issues found
+TC006,Validate Navigation,Navigate through pages using the menu,User should navigate to all pages easily,Menu navigation worked fine,Pass,No issues found
+TC007,Validate Shipping Functionality,Fill shipping form > Create rates > Verify shipping logic,Shipping functionality should work,Shipping functionality worked correctly,Pass,No issues found
+TC008,Validate Stripe Payment Logic,Click checkout button > Complete payment process,Stripe payment should work correctly,Stripe payment worked correctly,Pass,No issues found
+TC009,Validate Cart Functionality,Add items to cart > Verify cart updates,Cart should update correctly,Cart updated correctly,Pass,No issues found
+TC010,Validate Wishlist Functionality,Add items to wishlist > Verify wishlist updates,Wishlist should update correctly,Wishlist updated correctly,Pass,No issues found
+TC011,Validate Product Listing Page,Open product listing page > Verify products display,Products should display with details,Products displayed correctly,Pass,No issues found
+TC012,Validate Product Detail Page,Click on a product > Verify product details,Product details should display correctly,Product details displayed correctly,Pass,No issues found
+TC013,Validate Advanced Category Filters,Apply category filters > Verify filtered products,Products should filter correctly,Products filtered correctly,Pass,No issues found
+TC014,Validate Reviews and Ratings,View reviews and ratings on product detail page,Reviews and ratings should display,Reviews and ratings displayed correctly,Pass,No issues found
+TC015,Validate Inventory Management,Check product stock on the product detail page,Stock information should be accurate,Stock information was accurate,Pass,No issues found
+TC016,Validate Authentication (Clerk),Sign up and log in using Clerk,User should authenticate successfully,Authentication worked successfully,Pass,No issues found
