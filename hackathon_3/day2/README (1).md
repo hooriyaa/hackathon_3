@@ -4,7 +4,7 @@ This plan is your guide to building a successful online furniture store. It focu
 
 1. Executive Summary
 •Goal: Build a top online destination for stylish, functional furniture.
-•Target Audience: Homeowners, renters, interior designers, and businesses.
+•Target Audience: Homeowners, interior designers, and businesses.
 •Mission: Offer quality furniture, convenience, and exceptional customer service.
 
 2. Market Analysis
