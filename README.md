@@ -82,47 +82,41 @@ Below is a detailed breakdown of the project features, architecture, and workflo
 •Displays a responsive product listing with advanced category filters.
 •Users can browse sofas, chairs, and stools.
 
-##Product Detail Page:
+## Product Detail Page:
 
-Shows detailed product information, including reviews and ratings.
-
-Users can add products to the cart or wishlist.
+•Shows detailed product information, including reviews and ratings.
+•Users can add products to the cart or wishlist.
 
 ## Cart:
 
-Displays selected products with their quantities and total price.
-
-Users must be signed in to proceed to payment.
+•Displays selected products with their quantities and total price.
+•Users must be signed in to proceed to payment.
 
 ## Checkout:
 
-Collects shipping details and calculates shipping rates using ShipEngine.
-
-Users must be signed in to proceed to payment.
+•Collects shipping details and calculates shipping rates using ShipEngine.
+•Users must be signed in to proceed to payment.
 
 ## Payment:
 
-Processes payments securely using Stripe.
+•Processes payments securely using Stripe.
+•Users must be signed in to complete the payment.
 
-Users must be signed in to complete the payment.
 
 ## Shipment Page:
 
-Displays shipping details and allows users to confirm their shipment information.
-
-Provides an option to track the order using ShipEngine.
+•Displays shipping details and allows users to confirm their shipment information.
+•Provides an option to track the order using ShipEngine.
 
 ## Order Confirmation:
 
-Displays a success message with order details and shipping information.
+•Displays a success message with order details and shipping information.
 
 
-Product Data Structure
+**Product Data Structure**
 Managed via Sanity CMS:
 
-json
-Copy
-{
+**{
   "ID": "string",
   "Name": "string",
   "Old Price": "number",
@@ -133,27 +127,19 @@ Copy
   "Image": "string (URL)",
   "Rating": "number (1-5)"
 }
-Technologies Used
-Frontend: React.js, Tailwind CSS
+**
 
-Backend: Sanity CMS
 
-Authentication: Clerk
+✨## Technologies Used
+•Frontend: React.js, Tailwind CSS
+•Backend: Sanity CMS
+•Authentication: Clerk
+•Shipping: ShipEngine
+•Payments: Stripe
 
-Shipping: ShipEngine
 
-Payments: Stripe
+## Performance Testing: Lighthouse
 
-Performance Testing: Lighthouse
 
-How to Run the Project
-Clone the repository.
-
-Install dependencies using npm install or yarn install.
-
-Start the development server using npm start or yarn start.
-
-Access the application at localhost:3000.
-
-Conclusion
-Comforty is a fully functional e-commerce platform designed to provide a seamless shopping experience for users looking to purchase high-quality sofas and chairs. With robust backend integration, responsive design, and secure payment processing, Comforty is ready for real-world deployment. Users must be signed in to proceed to payment, ensuring a secure and personalized shopping experience.
+## Conclusion
+**Comforty is a fully functional e-commerce platform designed to provide a seamless shopping experience for users looking to purchase high-quality sofas and chairs. With robust backend integration, responsive design, and secure payment processing, Comforty is ready for real-world deployment. Users must be signed in to proceed to payment, ensuring a secure and personalized shopping experience.**
