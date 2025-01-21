@@ -1,0 +1,10 @@
+1,,Test Case ID,Test Case Description,Test Steps,Expected,Actual,Status,Severity,Assigned,Remarks
+2,,TCO01,Product Listing Page,Open the product listing page,All products should be displayed with correct details,Displayed correctly,Passed,Low,Ameen,Success
+3,,TCO02,Product Detail Page,Click on a product from the listing page,Individual product details should be displayed,Displayed correctly,Passed,Low,Ameen,Success
+4,,TCO03,Advanced Category Filters,Apply filters on the product listing page,Products should be filtered according to the selected category,Filtered correctly,Passed,Medium,Ameen,Success
+5,,TCO04,Reviews and Ratings,View reviews and ratings on the product detail page,Reviews and ratings should be visible,Visible correctly,Passed,Low,Ameen,Success
+6,,TCO05,Add-to-Cart Functionality,Click 'Add to Cart' on a product,Product should be added to the cart,Added successfully,Passed,Low,Ameen,Success
+7,,TCO06,Wishlist Functionality,Add a product to the wishlist,Product should be added to the wishlist,Added successfully,Passed,Low,Ameen,Success
+8,,TCO07,Inventory Management,Check product stock on the product detail page,Stock information should be accurate,Accurate,Passed,Medium,Ameen,Success
+9,,TCO08,Authentication using Clerk,Sign up and log in using Clerk,User should be able to authenticate successfully,Authenticated successfully,Passed,High,Ameen,Success
+10,,TCO09,Shipment Functionality,Proceed to checkout and select shipment option,Shipment details should be processed without errors,Error encountered,Failed,High,Ameen,Needs Fixing
