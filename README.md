@@ -1,5 +1,6 @@
-Comforty: E-Commerce Platform for Sofas and Chairs
-Overview
+## ✨Comforty: E-Commerce Platform for Sofas and Chairs
+
+## Overview:
 Comforty is an e-commerce platform specializing in offering a wide variety of sofas and chairs. The platform is built using Sanity CMS as the backend for managing product data and integrates third-party APIs for shipping and payments. Below is a detailed breakdown of the project features, architecture, and workflow.
 
 Features
